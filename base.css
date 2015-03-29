@@ -1,3 +1,10 @@
+/*!
+ * Base v1.0.1
+ * A modern, HTML5 ready CSS base, foundation
+ * http://www.himpfen.com/base-css/
+ * Copyright Brandon Himpfen
+ * Licensed under MIT (http://brandonhimpfen.mit-license.org)
+ */
 html {
   font-size: 100%;
   overflow-y: scroll;
@@ -251,35 +258,27 @@ audio:not([controls]) {
     text-shadow: none !important;
     filter: none !important;
     -ms-filter: none !important; }
-
   a, a:visited {
     text-decoration: underline; }
-
   a[href]:after {
     content: " (" attr(href) ")"; }
-
   abbr[title]:after {
     content: " (" attr(title) ")"; }
-
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
     content: ""; }
-
   pre, blockquote {
     border: 1px solid #CCC;
     page-break-inside: avoid; }
-
   thead {
     display: table-header-group; }
-
   tr, img {
     page-break-inside: avoid; }
-
   img {
     max-width: 100% !important; }
-
   p, h2, h3 {
     orphans: 3;
     widows: 3; }
-
   h2, h3 {
     page-break-after: avoid; } }
+
+/*# sourceMappingURL=base.css.map */
